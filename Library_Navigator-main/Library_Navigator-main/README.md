@@ -62,7 +62,7 @@ This project was developed with a focus on clean code, modular design, and robus
 ## 🛠️ Get Started  
 1. **Prerequisites**:  
    ```bash  
-   git clone https://github.com/your-repo/keele-library-nav  
+   git clone https://github.com/Mike-ay-Akinremi/keele-library-nav  
    python3 -m pip install tkinter csv
 
 :smile:|:smile:|:smile:
