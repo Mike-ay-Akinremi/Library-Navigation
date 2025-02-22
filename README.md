@@ -1,6 +1,6 @@
 # Library-Navigation
 # **Keele University Library Navigator**  
-*Find resources faster – one search away.* 
+:wave: *Find resources faster – one search away.* 
 
 ## 🚀 Why This Matters  
 Academic success hinges on efficient resource access, yet 68% of students report wasting >15 minutes per session locating materials(Textbooks) in the institution's library. This Python-based application is designed to simplify access to library resources by providing an intuitive interface for searching subject classifications, classmarks, and corresponding library locations. This project offers a graphical user interface (GUI) and a command-line interface (CLI), ensuring accessibility and ease of use for all users. This tool eliminates manual cross-referencing between physical locations, classmarks, and subjects – all through a unified interface.  
