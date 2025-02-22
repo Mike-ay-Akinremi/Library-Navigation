@@ -1,10 +1,17 @@
 # Library-Navigation
 # **Keele University Library Navigator**  
-*Find resources faster – one search away.*  
+*Find resources faster – one search away.* 
 
 ## 🚀 Why This Matters  
-Academic success hinges on efficient resource access, yet 68% of students report wasting >15 minutes per session locating materials(Text books) in the institution's library[^1]. This tool eliminates manual cross-referencing between physical locations, classmarks, and subjects – all through a unified interface.  
+Academic success hinges on efficient resource access, yet 68% of students report wasting >15 minutes per session locating materials(Textbooks) in the institution's library. This Python-based application is designed to simplify access to library resources by providing an intuitive interface for searching subject classifications, classmarks, and corresponding library locations. This project offers a graphical user interface (GUI) and a command-line interface (CLI), ensuring accessibility and ease of use for all users. This tool eliminates manual cross-referencing between physical locations, classmarks, and subjects – all through a unified interface.  
 
+## Project Overview
+The Keele University Library Navigator streamlines the process of finding library resources by reading structured data from CSV files. Users can search by:
+
+- **Subject**: Quickly identify related classmarks and library locations.
+- **Classmark**: Retrieve associated subjects and locate relevant sections.
+- **Location**: Find which subjects and classmarks are available in a specific area of the library.
+This project was developed with a focus on clean code, modular design, and robust data processing, making it an ideal demonstration of my skills in Python programming and GUI development.
 ---
 
 ## 🔍 Problem & Solution  
@@ -24,10 +31,17 @@ Academic success hinges on efficient resource access, yet 68% of students report
   - Subject → Classmark + Location  
   - Classmark → Subject + Location  
   - Location → Subject + Classmark  
-- **Data Normalization**: Auto-strips whitespace + case-insensitive queries (e.g., "COMPSCI" = "CompSci")  
-- **Dual Interfaces**: Serve both tech-savvy users (CLI via `text_file.py`) and general audiences (GUI with Keele branding)  
+- **Data Normalization**: Auto-strips whitespace + case-insensitive queries (e.g., "COMPSCI" = "CompSci")    
 - **CSV Scalability**: Add new entries without code changes  
-
+- **Dual Interface**:
+    - Graphical User Interface (GUI) using Tkinter for an interactive experience.
+    - Command-Line Interface (CLI) for quick, text-based interaction.
+- **Data Integration**: Reads and processes CSV files containing subject, classmark, and location data.
+- **Dynamic Search Functions**:
+    - **showSubj()**: Searches subjects and returns corresponding classmarks and locations.
+    - **showClmk()**: Looks up classmarks to reveal associated subjects and locations.
+    - **showLkt()**: Retrieves subjects and classmarks based on a given location.
+- **User-Centric Design**: Simple and intuitive design aimed at enhancing user experience and reducing the time to find library resources.
 ---
 
 ## 🛠️ Tech Stack  
